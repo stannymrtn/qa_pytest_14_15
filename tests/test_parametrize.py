@@ -1,5 +1,5 @@
 import pytest
-from selene import browser, be
+from selene import browser, by, be
 
 desktop_only = pytest.mark.parametrize("browser_management",
                                        [(1280, 720), (1920, 1080)], indirect=True,
